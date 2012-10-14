@@ -11,8 +11,10 @@ Group: Development/Perl
 Url: https://github.com/briandfoy/http-simplelinkchecker
 Source0: http://search.cpan.org/CPAN/authors/id/B/BD/BDFOY/%{upstream_name}-%{upstream_version}.tar.gz
 
-BuildRequires: perl-devel
 BuildArch: noarch
+BuildRequires:	perl(Test::Pod)
+BuildRequires:	perl(Test::Pod::Coverage)
+BuildRequires:	perl(Test::Prereq)
 
 %description
 You don't have to know anything about objected-oriented Perl, LWP, or
