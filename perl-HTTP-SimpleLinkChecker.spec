@@ -13,6 +13,7 @@ Source0: http://search.cpan.org/CPAN/authors/id/B/BD/BDFOY/%{upstream_name}-%{up
 
 BuildArch: noarch
 BuildRequires:	perl(HTTP::Request)
+BuildRequires:	perl(LWP::UserAgent)
 BuildRequires:	perl(Test::Pod)
 BuildRequires:	perl(Test::Pod::Coverage)
 BuildRequires:	perl(Test::Prereq)
