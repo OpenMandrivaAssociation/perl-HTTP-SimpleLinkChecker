@@ -1,18 +1,18 @@
 %define upstream_name HTTP-SimpleLinkChecker
 %define upstream_version 1.16
 
-Name: perl-%{upstream_name}
-Version: %perl_convert_version %{upstream_version}
-Release: 1
+Name:		perl-%{upstream_name}
+Version:	%perl_convert_version %{upstream_version}
+Release:	2
 
-Summary: HTTP::SimpleLinkChecker - Check the HTTP response code for a link
-License: GPLv1+ or Artistic
-Group: Development/Perl
-Url: https://github.com/briandfoy/http-simplelinkchecker
-Source0: http://search.cpan.org/CPAN/authors/id/B/BD/BDFOY/%{upstream_name}-%{upstream_version}.tar.gz
+Summary:	HTTP::SimpleLinkChecker - Check the HTTP response code for a link
+License:	GPLv1+ or Artistic
+Group:		Development/Perl
+Url:		https://github.com/briandfoy/http-simplelinkchecker
+Source0:	http://search.cpan.org/CPAN/authors/id/B/BD/BDFOY/%{upstream_name}-%{upstream_version}.tar.gz
 
-BuildRequires: perl-devel
-BuildArch: noarch
+BuildRequires:	perl-devel
+BuildArch:	noarch
 
 %description
 You don't have to know anything about objected-oriented Perl, LWP, or
