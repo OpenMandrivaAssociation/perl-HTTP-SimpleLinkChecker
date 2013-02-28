@@ -12,6 +12,7 @@ Url:		https://github.com/briandfoy/http-simplelinkchecker
 Source0:	http://search.cpan.org/CPAN/authors/id/B/BD/BDFOY/%{upstream_name}-%{upstream_version}.tar.gz
 
 BuildRequires:	perl-devel
+BuildRequires:	perl-HTTP-Message
 BuildArch:	noarch
 
 %description
