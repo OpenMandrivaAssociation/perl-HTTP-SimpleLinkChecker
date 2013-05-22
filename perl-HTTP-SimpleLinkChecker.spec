@@ -13,6 +13,7 @@ Source0:	http://search.cpan.org/CPAN/authors/id/B/BD/BDFOY/%{upstream_name}-%{up
 
 BuildRequires:	perl-devel
 BuildRequires:	perl-HTTP-Message
+BuildRequires:  perl(LWP::UserAgent)
 BuildArch:	noarch
 
 %description
